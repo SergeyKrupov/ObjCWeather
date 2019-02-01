@@ -1,0 +1,46 @@
+{% include 'header' %}
+
+#import <Typhoon/TyphoonDefinition+Infrastructure.h>
+
+#import "{{ prefix }}{{ module_info.name }}Assembly.h"
+#import "{{ prefix }}{{ module_info.name }}Interactor.h"
+#import "{{ prefix }}{{ module_info.name }}Presenter.h"
+#import "{{ prefix }}{{ module_info.name }}Router.h"
+
+@implementation {{ prefix }}{{ module_info.name }}Assembly
+
+- ({{ prefix }}{{ module_info.name }}ViewController *)viewController
+{
+    return [TyphoonDefinition withClass:[{{ prefix }}{{ module_info.name }}ViewController class] configuration:^(TyphoonDefinition *definition) {
+        definition.key = @"{{ prefix }}{{ module_info.name }}ViewController";
+        [definition injectProperty:@selector(presenter) with:[self presenter]];
+    }];
+}
+
+- ({{ prefix }}{{ module_info.name }}Interactor *)interactor
+{
+    return [TyphoonDefinition withClass:[{{ prefix }}{{ module_info.name }}Interactor class] configuration:^(TyphoonDefinition *definition) {
+        definition.key = @"{{ prefix }}{{ module_info.name }}Interactor";
+        // Inject services
+    }];
+}
+
+- ({{ prefix }}{{ module_info.name }}Presenter *)presenter
+{
+    return [TyphoonDefinition withClass:[{{ prefix }}{{ module_info.name }}Presenter class] configuration:^(TyphoonDefinition *definition) {
+        definition.key = @"{{ prefix }}{{ module_info.name }}Presenter";
+
+        [definition injectProperty:@selector(view) with:[self viewController]];
+        [definition injectProperty:@selector(interactor) with:[self interactor]];
+        [definition injectProperty:@selector(router) with:[self router]];
+    }];
+}
+
+- ({{ prefix }}{{ module_info.name }}Router *)router
+{
+    return [TyphoonDefinition withClass:[{{ prefix }}{{ module_info.name }}Router class] configuration:^(TyphoonDefinition *definition) {
+        definition.key = @"{{ prefix }}{{ module_info.name }}Router";
+    }];
+}
+
+@end

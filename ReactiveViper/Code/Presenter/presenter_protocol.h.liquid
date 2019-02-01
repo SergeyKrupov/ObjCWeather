@@ -1,0 +1,13 @@
+{% include 'header' %}
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@protocol {{ prefix }}{{ module_info.name }}PresenterProtocol <NSObject>
+
+- (void)setupBindings;
+
+@end
+
+NS_ASSUME_NONNULL_END

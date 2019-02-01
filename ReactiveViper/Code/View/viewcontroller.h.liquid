@@ -1,0 +1,17 @@
+{% include 'header' %}
+
+#import <UIKit/UIKit.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+
+#import "{{ prefix }}{{ module_info.name }}ViewProtocol.h"
+#import "{{ prefix }}{{ module_info.name }}PresenterProtocol.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface {{ prefix }}{{ module_info.name }}ViewController : UIViewController
+
+@property (nonatomic, strong) id<{{ prefix }}{{ module_info.name }}PresenterProtocol> presenter;
+
+@end
+
+NS_ASSUME_NONNULL_END

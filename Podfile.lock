@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - ReactiveObjC (3.1.0)
+  - Typhoon (4.0.7):
+    - Typhoon/DeallocNotifier (= 4.0.7)
+    - Typhoon/IntrospectionUtils (= 4.0.7)
+    - Typhoon/no-arc (= 4.0.7)
+  - Typhoon/DeallocNotifier (4.0.7)
+  - Typhoon/IntrospectionUtils (4.0.7)
+  - Typhoon/no-arc (4.0.7):
+    - Typhoon/IntrospectionUtils
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - Mantle (~> 2.1.0)
+  - ReactiveObjC (~> 3.1.0)
+  - Typhoon (~> 4.0.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Mantle
+    - ReactiveObjC
+    - Typhoon
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  Typhoon: f89030797a7c8a23ee85aa7c7dbdfd2e5d8a8471
+
+PODFILE CHECKSUM: 559f2e31690e6df16318d339b71a23c3c07f48c7
+
+COCOAPODS: 1.5.3

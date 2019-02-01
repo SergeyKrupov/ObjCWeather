@@ -1,0 +1,12 @@
+{% include 'header' %}
+
+#import <Foundation/Foundation.h>
+#import "{{ prefix }}{{ module_info.name }}InteractorProtocol.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface {{ prefix }}{{ module_info.name }}Interactor : NSObject<{{ prefix }}{{ module_info.name }}InteractorProtocol>
+
+@end
+
+NS_ASSUME_NONNULL_END

@@ -1,0 +1,16 @@
+{% include 'header' %}
+
+#import <Foundation/Foundation.h>
+#import <Typhoon/Typhoon.h>
+
+#import "{{ prefix }}{{ module_info.name }}ViewController.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface {{ prefix }}{{ module_info.name }}Assembly : TyphoonAssembly
+
+- ({{ prefix }}{{ module_info.name }}ViewController *)viewController;
+
+@end
+
+NS_ASSUME_NONNULL_END

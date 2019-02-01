@@ -1,0 +1,22 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}ViewController.h"
+#import <ReactiveObjC/ReactiveObjC.h>
+
+@interface {{ prefix }}{{ module_info.name }}ViewController ()
+
+@end
+
+@implementation {{ prefix }}{{ module_info.name }}ViewController
+
+// MARK: - Lifecycle
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    [self.presenter setupBindings];
+}
+
+// MARK: - {{ prefix }}{{ module_info.name }}ViewProtocol
+
+@end

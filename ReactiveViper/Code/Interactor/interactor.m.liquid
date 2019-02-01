@@ -1,0 +1,20 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Interactor.h"
+
+@interface {{ prefix }}{{ module_info.name }}Interactor ()
+
+@end
+
+@implementation {{ prefix }}{{ module_info.name }}Interactor
+
+- (instancetype)init
+{
+    if ((self = [super init])) {
+    }
+    return self;
+}
+
+// MARK: - {{ prefix }}{{ module_info.name }}InteractorProtocol
+
+@end

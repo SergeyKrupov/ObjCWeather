@@ -7,13 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5A09FB0220426C9005F4364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A09FAF220426C9005F4364 /* AppDelegate.m */; };
-		A5A09FB3220426C9005F4364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A09FB2220426C9005F4364 /* ViewController.m */; };
-		A5A09FB6220426C9005F4364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A09FB4220426C9005F4364 /* Main.storyboard */; };
+		17C7E11FF2264B8D100F83E0 /* WTSettingsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7245A6BB8513DA4268E46C91 /* WTSettingsPresenter.m */; };
+		17D6340A6365AD3492CCE55D /* WTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B610B36EA1667E00977D7D0 /* WTRootViewController.m */; };
+		34300DBB0FDA83CB47565974 /* WTSettingsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B1DEC6D67CA178823B7621 /* WTSettingsRouter.m */; };
+		400E9D523458B54548C981B0 /* WTForecastPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C761EBFAF2E3E2B37EFBCA27 /* WTForecastPresenter.m */; };
+		4DCA8A01427166879CB5B253 /* WTForecastInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 437BE6D5AEFE213E32AB79F5 /* WTForecastInteractor.m */; };
+		57082F146029F27CA33643BB /* WTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6AD57888A5814A5F60219D /* WTSettingsViewController.m */; };
+		6941058F9AE7D672BB68A4B7 /* WTSettingsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F3427EBA78A914D0D84BCA /* WTSettingsInteractor.m */; };
+		7A9C3F016502C950ED3A82E5 /* WTForecastAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E35887AEEFD029B12776D /* WTForecastAssembly.m */; };
+		7F0E900C1D473308E0B31006 /* WTRootAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 299CD8C5BFAE41F989A3DAB5 /* WTRootAssembly.m */; };
+		899AC83C9E47FD27DD832485 /* WTForecastRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D490DC423E57AF80681DEF39 /* WTForecastRouter.m */; };
+		9082900C0A23CC8FC3896C84 /* WTRootInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01311E8244FC3144093CD498 /* WTRootInteractor.m */; };
+		A508021B2209E41600398E9A /* WTSettingsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A508021A2209E41600398E9A /* WTSettingsItem.m */; };
+		A557B9D9220A9D1D00ED68D5 /* WTWeather+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = A557B9D8220A9D1D00ED68D5 /* WTWeather+Creation.m */; };
+		A55E7F052204A637005C9090 /* WTWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F032204A637005C9090 /* WTWeatherViewController.m */; };
+		A55E7F062204A637005C9090 /* WTWeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55E7F042204A637005C9090 /* WTWeatherViewController.xib */; };
+		A55E7F0C2204A72C005C9090 /* WTWeatherPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F0B2204A72C005C9090 /* WTWeatherPresenter.m */; };
+		A55E7F162204A827005C9090 /* WTWeatherInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F152204A827005C9090 /* WTWeatherInteractor.m */; };
+		A55E7F212204A8FF005C9090 /* WTWeatherRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F202204A8FF005C9090 /* WTWeatherRouter.m */; };
+		A55E7F252204A9C2005C9090 /* WTWeatherAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F242204A9C2005C9090 /* WTWeatherAssembly.m */; };
+		A55E7F2D2204B939005C9090 /* WTNetworkComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F2C2204B939005C9090 /* WTNetworkComponent.m */; };
+		A55E7F302204B98B005C9090 /* WTNetworkComponentAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F2F2204B98B005C9090 /* WTNetworkComponentAssembly.m */; };
+		A55E7F372204BA9C005C9090 /* WTWeatherComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F362204BA9C005C9090 /* WTWeatherComponent.m */; };
+		A55E7F3A2204BAD8005C9090 /* WTWeatherComponentAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F392204BAD8005C9090 /* WTWeatherComponentAssembly.m */; };
+		A55E7F412204C5A3005C9090 /* WTSettingsComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F402204C5A3005C9090 /* WTSettingsComponent.m */; };
+		A55E7F442204C5ED005C9090 /* WTSettingsComponentAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F432204C5ED005C9090 /* WTSettingsComponentAssembly.m */; };
+		A55E7F462204C6DC005C9090 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = A55E7F452204C6DC005C9090 /* Configuration.plist */; };
+		A55E7F4A2204D46A005C9090 /* WTCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F492204D46A005C9090 /* WTCity.m */; };
+		A55E7F4D2204D47C005C9090 /* WTWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A55E7F4C2204D47C005C9090 /* WTWeather.m */; };
+		A5630FF02204DC4900ED4581 /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = A5630FEE2204DC4900ED4581 /* Cities.json */; };
+		A5630FF12204DC4900ED4581 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5630FEF2204DC4900ED4581 /* Icons.xcassets */; };
+		A5630FF52204E9A100ED4581 /* WTApiWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A5630FF42204E9A100ED4581 /* WTApiWeather.m */; };
+		A565CAEE2205F0CA0001BD53 /* WTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A565CAED2205F0CA0001BD53 /* WTUtils.m */; };
+		A5A09FB0220426C9005F4364 /* WTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A09FAF220426C9005F4364 /* WTAppDelegate.m */; };
 		A5A09FB8220426CB005F4364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A09FB7220426CB005F4364 /* Assets.xcassets */; };
 		A5A09FBB220426CB005F4364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A09FB9220426CB005F4364 /* LaunchScreen.storyboard */; };
 		A5A09FBE220426CB005F4364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A09FBD220426CB005F4364 /* main.m */; };
 		A5A09FC8220426CC005F4364 /* ObjCWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A09FC7220426CC005F4364 /* ObjCWeatherTests.m */; };
+		A5A09FD622042EEE005F4364 /* WTApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A09FD522042EEE005F4364 /* WTApplicationAssembly.m */; };
+		A5F46F6C22099DDA005DDDB3 /* WTApiForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F46F6B22099DDA005DDDB3 /* WTApiForecast.m */; };
+		A5F46F702209A30E005DDDB3 /* WTWeatherItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F46F6F2209A30E005DDDB3 /* WTWeatherItem.m */; };
+		A5F46F742209AA17005DDDB3 /* WTForecastItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F46F732209AA17005DDDB3 /* WTForecastItemTableViewCell.m */; };
+		A5F46F782209AA94005DDDB3 /* WTForecastItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F46F772209AA94005DDDB3 /* WTForecastItemTableViewCell.xib */; };
+		BE1CB81D9DBCB456E8A64546 /* WTSettingsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947003333213670A9F1BAA9 /* WTSettingsAssembly.m */; };
+		C13311A51B602C4D79E791C5 /* libPods-ObjCWeatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FA50F34639F39DD8E80B7F /* libPods-ObjCWeatherTests.a */; };
+		C1D9C7E56BBF149BEB2116FE /* libPods-ObjCWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432248A44D0E39DFA8ECFF30 /* libPods-ObjCWeather.a */; };
+		DCCFAD16326E822AE9AE5FCC /* WTForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8CF01212796FCB8CDEB3D /* WTForecastViewController.m */; };
+		E7026389D174FD00E0FFCEF1 /* WTRootPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B08E76D5EB05AC50A2F69D /* WTRootPresenter.m */; };
+		FBB3C4F1E24EC5B00C873B47 /* WTRootRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E8D2C6FC5957B224195795 /* WTRootRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +68,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01311E8244FC3144093CD498 /* WTRootInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTRootInteractor.m; sourceTree = "<group>"; };
+		040CD0C045D7EB8D9BD43775 /* WTForecastRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastRouter.h; sourceTree = "<group>"; };
+		0834F34F7ED90D5C44C08C92 /* Pods-ObjCWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCWeather/Pods-ObjCWeather.release.xcconfig"; sourceTree = "<group>"; };
+		0A43C6EF2D0626A7497F8564 /* WTForecastViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastViewProtocol.h; sourceTree = "<group>"; };
+		110F3E7B32CBAFB98CAEB6F7 /* Pods-ObjCWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCWeatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCWeatherTests/Pods-ObjCWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D1695210A8BAC6019B5F861 /* WTSettingsInteractorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsInteractorProtocol.h; sourceTree = "<group>"; };
+		225553BE483A37A67B495A0A /* WTForecastInteractorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastInteractorProtocol.h; sourceTree = "<group>"; };
+		26341146D3C9A947E875AA6B /* WTSettingsPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsPresenter.h; sourceTree = "<group>"; };
+		26F4507F1A3F6258DCE6CCC3 /* WTSettingsAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsAssembly.h; sourceTree = "<group>"; };
+		299CD8C5BFAE41F989A3DAB5 /* WTRootAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTRootAssembly.m; sourceTree = "<group>"; };
+		2DF8CF01212796FCB8CDEB3D /* WTForecastViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTForecastViewController.m; sourceTree = "<group>"; };
+		320D0EB430C26515402ECCF1 /* WTSettingsInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsInteractor.h; sourceTree = "<group>"; };
+		3B610B36EA1667E00977D7D0 /* WTRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTRootViewController.m; sourceTree = "<group>"; };
+		432248A44D0E39DFA8ECFF30 /* libPods-ObjCWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437BE6D5AEFE213E32AB79F5 /* WTForecastInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTForecastInteractor.m; sourceTree = "<group>"; };
+		4C5D1B3E9CC3723A142D3488 /* WTRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootViewController.h; sourceTree = "<group>"; };
+		512BAC2D54F6646EBFA42AC4 /* WTSettingsViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsViewProtocol.h; sourceTree = "<group>"; };
+		564DC690161253986CBF59CF /* WTRootPresenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootPresenterProtocol.h; sourceTree = "<group>"; };
+		56E8D2C6FC5957B224195795 /* WTRootRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTRootRouter.m; sourceTree = "<group>"; };
+		66005F68021051927F7CCFBC /* WTSettingsRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsRouter.h; sourceTree = "<group>"; };
+		7245A6BB8513DA4268E46C91 /* WTSettingsPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTSettingsPresenter.m; sourceTree = "<group>"; };
+		72BC856D2DE60B95BB70E338 /* WTSettingsRouterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsRouterProtocol.h; sourceTree = "<group>"; };
+		7947003333213670A9F1BAA9 /* WTSettingsAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTSettingsAssembly.m; sourceTree = "<group>"; };
+		8DE85BCCC0E2897A07325826 /* WTRootPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootPresenter.h; sourceTree = "<group>"; };
+		8E90C8401B96C60F08E7889C /* WTRootInteractorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootInteractorProtocol.h; sourceTree = "<group>"; };
+		90D1AD60656DD351432F6E14 /* WTRootRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootRouter.h; sourceTree = "<group>"; };
+		9ACB1C31E7D4A004C804E124 /* WTForecastViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastViewController.h; sourceTree = "<group>"; };
+		A50802192209E41600398E9A /* WTSettingsItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSettingsItem.h; sourceTree = "<group>"; };
+		A508021A2209E41600398E9A /* WTSettingsItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTSettingsItem.m; sourceTree = "<group>"; };
+		A557B9D7220A9D1C00ED68D5 /* WTWeather+Creation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTWeather+Creation.h"; sourceTree = "<group>"; };
+		A557B9D8220A9D1D00ED68D5 /* WTWeather+Creation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WTWeather+Creation.m"; sourceTree = "<group>"; };
+		A55E7F022204A637005C9090 /* WTWeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherViewController.h; sourceTree = "<group>"; };
+		A55E7F032204A637005C9090 /* WTWeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherViewController.m; sourceTree = "<group>"; };
+		A55E7F042204A637005C9090 /* WTWeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTWeatherViewController.xib; sourceTree = "<group>"; };
+		A55E7F082204A695005C9090 /* WTWeatherViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherViewProtocol.h; sourceTree = "<group>"; };
+		A55E7F0A2204A72C005C9090 /* WTWeatherPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherPresenter.h; sourceTree = "<group>"; };
+		A55E7F0B2204A72C005C9090 /* WTWeatherPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherPresenter.m; sourceTree = "<group>"; };
+		A55E7F0D2204A74B005C9090 /* WTWeatherPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherPresenterProtocol.h; sourceTree = "<group>"; };
+		A55E7F112204A80D005C9090 /* WTWeatherInteractorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherInteractorProtocol.h; sourceTree = "<group>"; };
+		A55E7F142204A827005C9090 /* WTWeatherInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherInteractor.h; sourceTree = "<group>"; };
+		A55E7F152204A827005C9090 /* WTWeatherInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherInteractor.m; sourceTree = "<group>"; };
+		A55E7F1C2204A8BF005C9090 /* WTWeatherRouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherRouterProtocol.h; sourceTree = "<group>"; };
+		A55E7F1F2204A8FF005C9090 /* WTWeatherRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherRouter.h; sourceTree = "<group>"; };
+		A55E7F202204A8FF005C9090 /* WTWeatherRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherRouter.m; sourceTree = "<group>"; };
+		A55E7F232204A9C2005C9090 /* WTWeatherAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherAssembly.h; sourceTree = "<group>"; };
+		A55E7F242204A9C2005C9090 /* WTWeatherAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherAssembly.m; sourceTree = "<group>"; };
+		A55E7F282204B8FD005C9090 /* WTNetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNetworkService.h; sourceTree = "<group>"; };
+		A55E7F2B2204B939005C9090 /* WTNetworkComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNetworkComponent.h; sourceTree = "<group>"; };
+		A55E7F2C2204B939005C9090 /* WTNetworkComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNetworkComponent.m; sourceTree = "<group>"; };
+		A55E7F2E2204B98B005C9090 /* WTNetworkComponentAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNetworkComponentAssembly.h; sourceTree = "<group>"; };
+		A55E7F2F2204B98B005C9090 /* WTNetworkComponentAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNetworkComponentAssembly.m; sourceTree = "<group>"; };
+		A55E7F322204BA64005C9090 /* WTWeatherService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherService.h; sourceTree = "<group>"; };
+		A55E7F352204BA9C005C9090 /* WTWeatherComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherComponent.h; sourceTree = "<group>"; };
+		A55E7F362204BA9C005C9090 /* WTWeatherComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherComponent.m; sourceTree = "<group>"; };
+		A55E7F382204BAD8005C9090 /* WTWeatherComponentAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherComponentAssembly.h; sourceTree = "<group>"; };
+		A55E7F392204BAD8005C9090 /* WTWeatherComponentAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherComponentAssembly.m; sourceTree = "<group>"; };
+		A55E7F3C2204C577005C9090 /* WTSettingsService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSettingsService.h; sourceTree = "<group>"; };
+		A55E7F3F2204C5A3005C9090 /* WTSettingsComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSettingsComponent.h; sourceTree = "<group>"; };
+		A55E7F402204C5A3005C9090 /* WTSettingsComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTSettingsComponent.m; sourceTree = "<group>"; };
+		A55E7F422204C5ED005C9090 /* WTSettingsComponentAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSettingsComponentAssembly.h; sourceTree = "<group>"; };
+		A55E7F432204C5ED005C9090 /* WTSettingsComponentAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTSettingsComponentAssembly.m; sourceTree = "<group>"; };
+		A55E7F452204C6DC005C9090 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		A55E7F482204D46A005C9090 /* WTCity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTCity.h; sourceTree = "<group>"; };
+		A55E7F492204D46A005C9090 /* WTCity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTCity.m; sourceTree = "<group>"; };
+		A55E7F4B2204D47C005C9090 /* WTWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeather.h; sourceTree = "<group>"; };
+		A55E7F4C2204D47C005C9090 /* WTWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeather.m; sourceTree = "<group>"; };
+		A5630FEC2204D89500ED4581 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A5630FEE2204DC4900ED4581 /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
+		A5630FEF2204DC4900ED4581 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		A5630FF32204E9A100ED4581 /* WTApiWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTApiWeather.h; sourceTree = "<group>"; };
+		A5630FF42204E9A100ED4581 /* WTApiWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTApiWeather.m; sourceTree = "<group>"; };
+		A565CAEC2205F0CA0001BD53 /* WTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTUtils.h; sourceTree = "<group>"; };
+		A565CAED2205F0CA0001BD53 /* WTUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTUtils.m; sourceTree = "<group>"; };
 		A5A09FAB220426C9005F4364 /* ObjCWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A09FAE220426C9005F4364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A5A09FAF220426C9005F4364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5A09FB1220426C9005F4364 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5A09FB2220426C9005F4364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A5A09FB5220426C9005F4364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A09FAE220426C9005F4364 /* WTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAppDelegate.h; sourceTree = "<group>"; };
+		A5A09FAF220426C9005F4364 /* WTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAppDelegate.m; sourceTree = "<group>"; };
 		A5A09FB7220426CB005F4364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A09FBA220426CB005F4364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A09FBC220426CB005F4364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +151,36 @@
 		A5A09FC3220426CC005F4364 /* ObjCWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A09FC7220426CC005F4364 /* ObjCWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCWeatherTests.m; sourceTree = "<group>"; };
 		A5A09FC9220426CC005F4364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A09FD422042EEE005F4364 /* WTApplicationAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTApplicationAssembly.h; sourceTree = "<group>"; };
+		A5A09FD522042EEE005F4364 /* WTApplicationAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTApplicationAssembly.m; sourceTree = "<group>"; };
+		A5F46F6A22099DDA005DDDB3 /* WTApiForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTApiForecast.h; sourceTree = "<group>"; };
+		A5F46F6B22099DDA005DDDB3 /* WTApiForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTApiForecast.m; sourceTree = "<group>"; };
+		A5F46F6E2209A30E005DDDB3 /* WTWeatherItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeatherItem.h; sourceTree = "<group>"; };
+		A5F46F6F2209A30E005DDDB3 /* WTWeatherItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeatherItem.m; sourceTree = "<group>"; };
+		A5F46F722209AA17005DDDB3 /* WTForecastItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTForecastItemTableViewCell.h; sourceTree = "<group>"; };
+		A5F46F732209AA17005DDDB3 /* WTForecastItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTForecastItemTableViewCell.m; sourceTree = "<group>"; };
+		A5F46F772209AA94005DDDB3 /* WTForecastItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTForecastItemTableViewCell.xib; sourceTree = "<group>"; };
+		A8C8A065E59B3FE5873D2CD6 /* Pods-ObjCWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCWeatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCWeatherTests/Pods-ObjCWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B08E76D5EB05AC50A2F69D /* WTRootPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTRootPresenter.m; sourceTree = "<group>"; };
+		AFC4F0AD7BA62D3BF09A6CD9 /* WTForecastRouterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastRouterProtocol.h; sourceTree = "<group>"; };
+		B3FBB892449C72E5F006C0B0 /* WTRootRouterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootRouterProtocol.h; sourceTree = "<group>"; };
+		B8781F5B11DA45E46B99FDBD /* WTForecastPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastPresenter.h; sourceTree = "<group>"; };
+		C4FA50F34639F39DD8E80B7F /* libPods-ObjCWeatherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCWeatherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C761EBFAF2E3E2B37EFBCA27 /* WTForecastPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTForecastPresenter.m; sourceTree = "<group>"; };
+		C91A7BA5420D416F4A404806 /* WTRootViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootViewProtocol.h; sourceTree = "<group>"; };
+		C9B635D856B8476E68056968 /* WTSettingsPresenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsPresenterProtocol.h; sourceTree = "<group>"; };
+		CC0BA95A034488AEFB48FD37 /* WTForecastPresenterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastPresenterProtocol.h; sourceTree = "<group>"; };
+		D05E35887AEEFD029B12776D /* WTForecastAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTForecastAssembly.m; sourceTree = "<group>"; };
+		D490DC423E57AF80681DEF39 /* WTForecastRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTForecastRouter.m; sourceTree = "<group>"; };
+		DCF5C94B960DB75D48701305 /* WTSettingsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTSettingsViewController.h; sourceTree = "<group>"; };
+		E3D5B502E019C1A8AC912B6E /* WTRootAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootAssembly.h; sourceTree = "<group>"; };
+		E7F3427EBA78A914D0D84BCA /* WTSettingsInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTSettingsInteractor.m; sourceTree = "<group>"; };
+		EB6AD57888A5814A5F60219D /* WTSettingsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTSettingsViewController.m; sourceTree = "<group>"; };
+		F1B1DEC6D67CA178823B7621 /* WTSettingsRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTSettingsRouter.m; sourceTree = "<group>"; };
+		F40856C87D79624D1465C515 /* WTRootInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRootInteractor.h; sourceTree = "<group>"; };
+		F5A6932AE16A6FA293994938 /* WTForecastAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastAssembly.h; sourceTree = "<group>"; };
+		FC384C94D6BAEC71D2BF760D /* WTForecastInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTForecastInteractor.h; sourceTree = "<group>"; };
+		FD17A84629A7FB82D47C9F4B /* Pods-ObjCWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCWeather/Pods-ObjCWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D9C7E56BBF149BEB2116FE /* libPods-ObjCWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +196,345 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13311A51B602C4D79E791C5 /* libPods-ObjCWeatherTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ACDA76D8BF9542EDDF6754E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5F46F712209A9FC005DDDB3 /* Cells */,
+				9ACB1C31E7D4A004C804E124 /* WTForecastViewController.h */,
+				2DF8CF01212796FCB8CDEB3D /* WTForecastViewController.m */,
+				0A43C6EF2D0626A7497F8564 /* WTForecastViewProtocol.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		269165E404956C8E3238E85B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD17A84629A7FB82D47C9F4B /* Pods-ObjCWeather.debug.xcconfig */,
+				0834F34F7ED90D5C44C08C92 /* Pods-ObjCWeather.release.xcconfig */,
+				A8C8A065E59B3FE5873D2CD6 /* Pods-ObjCWeatherTests.debug.xcconfig */,
+				110F3E7B32CBAFB98CAEB6F7 /* Pods-ObjCWeatherTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35620D01311C6F7969AAA887 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				93892D729390D5ACA067515B /* Assembly */,
+				0ACDA76D8BF9542EDDF6754E /* View */,
+				3D6944D7851B6E619C3C7C56 /* Presenter */,
+				7046F1EC5F0C274FFB03DF00 /* Interactor */,
+				F81918FC76F6A172B85E5FE7 /* Router */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		3D6944D7851B6E619C3C7C56 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A5F46F6D2209A2F4005DDDB3 /* Models */,
+				B8781F5B11DA45E46B99FDBD /* WTForecastPresenter.h */,
+				C761EBFAF2E3E2B37EFBCA27 /* WTForecastPresenter.m */,
+				CC0BA95A034488AEFB48FD37 /* WTForecastPresenterProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		555A84651F1A1D01074FBDE2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A50802182209E3D500398E9A /* Model */,
+				26341146D3C9A947E875AA6B /* WTSettingsPresenter.h */,
+				7245A6BB8513DA4268E46C91 /* WTSettingsPresenter.m */,
+				C9B635D856B8476E68056968 /* WTSettingsPresenterProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5DDC51604D5D6A598470C3C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D1B3E9CC3723A142D3488 /* WTRootViewController.h */,
+				3B610B36EA1667E00977D7D0 /* WTRootViewController.m */,
+				C91A7BA5420D416F4A404806 /* WTRootViewProtocol.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63BFE3BA94C93F6E8922B302 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				26F4507F1A3F6258DCE6CCC3 /* WTSettingsAssembly.h */,
+				7947003333213670A9F1BAA9 /* WTSettingsAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		6F716EBF1E74739F722E5737 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				90D1AD60656DD351432F6E14 /* WTRootRouter.h */,
+				56E8D2C6FC5957B224195795 /* WTRootRouter.m */,
+				B3FBB892449C72E5F006C0B0 /* WTRootRouterProtocol.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7046F1EC5F0C274FFB03DF00 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FC384C94D6BAEC71D2BF760D /* WTForecastInteractor.h */,
+				437BE6D5AEFE213E32AB79F5 /* WTForecastInteractor.m */,
+				225553BE483A37A67B495A0A /* WTForecastInteractorProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7EA49DA85AF20A1DB45E8D56 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85BCCC0E2897A07325826 /* WTRootPresenter.h */,
+				A9B08E76D5EB05AC50A2F69D /* WTRootPresenter.m */,
+				564DC690161253986CBF59CF /* WTRootPresenterProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		80FE453FF85C017ACAA0E25B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				66005F68021051927F7CCFBC /* WTSettingsRouter.h */,
+				F1B1DEC6D67CA178823B7621 /* WTSettingsRouter.m */,
+				72BC856D2DE60B95BB70E338 /* WTSettingsRouterProtocol.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8CD55646B59272572E243258 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F40856C87D79624D1465C515 /* WTRootInteractor.h */,
+				01311E8244FC3144093CD498 /* WTRootInteractor.m */,
+				8E90C8401B96C60F08E7889C /* WTRootInteractorProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9205CC75C8DDF8672F8C3F25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCF5C94B960DB75D48701305 /* WTSettingsViewController.h */,
+				EB6AD57888A5814A5F60219D /* WTSettingsViewController.m */,
+				512BAC2D54F6646EBFA42AC4 /* WTSettingsViewProtocol.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93892D729390D5ACA067515B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				F5A6932AE16A6FA293994938 /* WTForecastAssembly.h */,
+				D05E35887AEEFD029B12776D /* WTForecastAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A50802182209E3D500398E9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A50802192209E41600398E9A /* WTSettingsItem.h */,
+				A508021A2209E41600398E9A /* WTSettingsItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A557B9D6220A9CEA00ED68D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A557B9D7220A9D1C00ED68D5 /* WTWeather+Creation.h */,
+				A557B9D8220A9D1D00ED68D5 /* WTWeather+Creation.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A55E7EFF2204A3FE005C9090 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B7E2706DEA09115AC694E /* Root */,
+				A55E7F002204A410005C9090 /* Weather */,
+				35620D01311C6F7969AAA887 /* Forecast */,
+				FE9EBD023571D902F66410C0 /* Settings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A55E7F002204A410005C9090 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F222204A9A6005C9090 /* Assembly */,
+				A55E7F172204A880005C9090 /* Router */,
+				A55E7F102204A7F6005C9090 /* Interactor */,
+				A55E7F092204A70A005C9090 /* Presenter */,
+				A55E7F012204A5E4005C9090 /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		A55E7F012204A5E4005C9090 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F022204A637005C9090 /* WTWeatherViewController.h */,
+				A55E7F032204A637005C9090 /* WTWeatherViewController.m */,
+				A55E7F042204A637005C9090 /* WTWeatherViewController.xib */,
+				A55E7F082204A695005C9090 /* WTWeatherViewProtocol.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A55E7F092204A70A005C9090 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F0A2204A72C005C9090 /* WTWeatherPresenter.h */,
+				A55E7F0B2204A72C005C9090 /* WTWeatherPresenter.m */,
+				A55E7F0D2204A74B005C9090 /* WTWeatherPresenterProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A55E7F102204A7F6005C9090 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F142204A827005C9090 /* WTWeatherInteractor.h */,
+				A55E7F152204A827005C9090 /* WTWeatherInteractor.m */,
+				A55E7F112204A80D005C9090 /* WTWeatherInteractorProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A55E7F172204A880005C9090 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F1F2204A8FF005C9090 /* WTWeatherRouter.h */,
+				A55E7F202204A8FF005C9090 /* WTWeatherRouter.m */,
+				A55E7F1C2204A8BF005C9090 /* WTWeatherRouterProtocol.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A55E7F222204A9A6005C9090 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F232204A9C2005C9090 /* WTWeatherAssembly.h */,
+				A55E7F242204A9C2005C9090 /* WTWeatherAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A55E7F262204B8B7005C9090 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F3B2204C55D005C9090 /* Settings */,
+				A55E7F312204BA39005C9090 /* Weather */,
+				A55E7F272204B8D3005C9090 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A55E7F272204B8D3005C9090 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F2B2204B939005C9090 /* WTNetworkComponent.h */,
+				A55E7F2C2204B939005C9090 /* WTNetworkComponent.m */,
+				A55E7F2E2204B98B005C9090 /* WTNetworkComponentAssembly.h */,
+				A55E7F2F2204B98B005C9090 /* WTNetworkComponentAssembly.m */,
+				A55E7F282204B8FD005C9090 /* WTNetworkService.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A55E7F312204BA39005C9090 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A557B9D6220A9CEA00ED68D5 /* Extensions */,
+				A5630FF22204E28800ED4581 /* API */,
+				A55E7F322204BA64005C9090 /* WTWeatherService.h */,
+				A55E7F352204BA9C005C9090 /* WTWeatherComponent.h */,
+				A55E7F362204BA9C005C9090 /* WTWeatherComponent.m */,
+				A55E7F382204BAD8005C9090 /* WTWeatherComponentAssembly.h */,
+				A55E7F392204BAD8005C9090 /* WTWeatherComponentAssembly.m */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		A55E7F3B2204C55D005C9090 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F3C2204C577005C9090 /* WTSettingsService.h */,
+				A55E7F3F2204C5A3005C9090 /* WTSettingsComponent.h */,
+				A55E7F402204C5A3005C9090 /* WTSettingsComponent.m */,
+				A55E7F422204C5ED005C9090 /* WTSettingsComponentAssembly.h */,
+				A55E7F432204C5ED005C9090 /* WTSettingsComponentAssembly.m */,
+				A55E7F452204C6DC005C9090 /* Configuration.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A55E7F472204D44F005C9090 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A55E7F482204D46A005C9090 /* WTCity.h */,
+				A55E7F492204D46A005C9090 /* WTCity.m */,
+				A55E7F4B2204D47C005C9090 /* WTWeather.h */,
+				A55E7F4C2204D47C005C9090 /* WTWeather.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5630FED2204DBF500ED4581 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5630FEE2204DC4900ED4581 /* Cities.json */,
+				A5630FEF2204DC4900ED4581 /* Icons.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5630FF22204E28800ED4581 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A5630FF32204E9A100ED4581 /* WTApiWeather.h */,
+				A5630FF42204E9A100ED4581 /* WTApiWeather.m */,
+				A5F46F6A22099DDA005DDDB3 /* WTApiForecast.h */,
+				A5F46F6B22099DDA005DDDB3 /* WTApiForecast.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A565CAEB2205F0960001BD53 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A565CAEC2205F0CA0001BD53 /* WTUtils.h */,
+				A565CAED2205F0CA0001BD53 /* WTUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A5A09FA2220426C9005F4364 = {
 			isa = PBXGroup;
 			children = (
 				A5A09FAD220426C9005F4364 /* ObjCWeather */,
 				A5A09FC6220426CC005F4364 /* ObjCWeatherTests */,
 				A5A09FAC220426C9005F4364 /* Products */,
+				269165E404956C8E3238E85B /* Pods */,
+				B83EB89222E9D0BDEF0E639C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +550,19 @@
 		A5A09FAD220426C9005F4364 /* ObjCWeather */ = {
 			isa = PBXGroup;
 			children = (
-				A5A09FAE220426C9005F4364 /* AppDelegate.h */,
-				A5A09FAF220426C9005F4364 /* AppDelegate.m */,
-				A5A09FB1220426C9005F4364 /* ViewController.h */,
-				A5A09FB2220426C9005F4364 /* ViewController.m */,
-				A5A09FB4220426C9005F4364 /* Main.storyboard */,
+				A565CAEB2205F0960001BD53 /* Utils */,
+				A5630FED2204DBF500ED4581 /* Resources */,
+				A55E7F472204D44F005C9090 /* Models */,
+				A55E7F262204B8B7005C9090 /* Services */,
+				A55E7EFF2204A3FE005C9090 /* Modules */,
+				A5A09FD322042EC4005F4364 /* ApplicationAssembly */,
+				A5A09FAE220426C9005F4364 /* WTAppDelegate.h */,
+				A5A09FAF220426C9005F4364 /* WTAppDelegate.m */,
 				A5A09FB7220426CB005F4364 /* Assets.xcassets */,
 				A5A09FB9220426CB005F4364 /* LaunchScreen.storyboard */,
 				A5A09FBC220426CB005F4364 /* Info.plist */,
 				A5A09FBD220426CB005F4364 /* main.m */,
+				A5630FEC2204D89500ED4581 /* PrefixHeader.pch */,
 			);
 			path = ObjCWeather;
 			sourceTree = "<group>";
@@ -103,6 +576,96 @@
 			path = ObjCWeatherTests;
 			sourceTree = "<group>";
 		};
+		A5A09FD322042EC4005F4364 /* ApplicationAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				A5A09FD422042EEE005F4364 /* WTApplicationAssembly.h */,
+				A5A09FD522042EEE005F4364 /* WTApplicationAssembly.m */,
+			);
+			path = ApplicationAssembly;
+			sourceTree = "<group>";
+		};
+		A5F46F6D2209A2F4005DDDB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5F46F6E2209A30E005DDDB3 /* WTWeatherItem.h */,
+				A5F46F6F2209A30E005DDDB3 /* WTWeatherItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5F46F712209A9FC005DDDB3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A5F46F772209AA94005DDDB3 /* WTForecastItemTableViewCell.xib */,
+				A5F46F722209AA17005DDDB3 /* WTForecastItemTableViewCell.h */,
+				A5F46F732209AA17005DDDB3 /* WTForecastItemTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A8058C7D3D72BE9858736D90 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				E3D5B502E019C1A8AC912B6E /* WTRootAssembly.h */,
+				299CD8C5BFAE41F989A3DAB5 /* WTRootAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		B83EB89222E9D0BDEF0E639C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				432248A44D0E39DFA8ECFF30 /* libPods-ObjCWeather.a */,
+				C4FA50F34639F39DD8E80B7F /* libPods-ObjCWeatherTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2B7E2706DEA09115AC694E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A8058C7D3D72BE9858736D90 /* Assembly */,
+				5DDC51604D5D6A598470C3C2 /* View */,
+				7EA49DA85AF20A1DB45E8D56 /* Presenter */,
+				8CD55646B59272572E243258 /* Interactor */,
+				6F716EBF1E74739F722E5737 /* Router */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		BE7D8D88C55CDDBF1D655786 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				320D0EB430C26515402ECCF1 /* WTSettingsInteractor.h */,
+				E7F3427EBA78A914D0D84BCA /* WTSettingsInteractor.m */,
+				1D1695210A8BAC6019B5F861 /* WTSettingsInteractorProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F81918FC76F6A172B85E5FE7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				040CD0C045D7EB8D9BD43775 /* WTForecastRouter.h */,
+				D490DC423E57AF80681DEF39 /* WTForecastRouter.m */,
+				AFC4F0AD7BA62D3BF09A6CD9 /* WTForecastRouterProtocol.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FE9EBD023571D902F66410C0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				63BFE3BA94C93F6E8922B302 /* Assembly */,
+				9205CC75C8DDF8672F8C3F25 /* View */,
+				555A84651F1A1D01074FBDE2 /* Presenter */,
+				BE7D8D88C55CDDBF1D655786 /* Interactor */,
+				80FE453FF85C017ACAA0E25B /* Router */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +673,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5A09FCC220426CC005F4364 /* Build configuration list for PBXNativeTarget "ObjCWeather" */;
 			buildPhases = (
+				58E246242211C9FFADA1CA61 /* [CP] Check Pods Manifest.lock */,
 				A5A09FA7220426C9005F4364 /* Sources */,
 				A5A09FA8220426C9005F4364 /* Frameworks */,
 				A5A09FA9220426C9005F4364 /* Resources */,
@@ -127,6 +691,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5A09FCF220426CC005F4364 /* Build configuration list for PBXNativeTarget "ObjCWeatherTests" */;
 			buildPhases = (
+				9163B66905D1EEAAEE8B9BD9 /* [CP] Check Pods Manifest.lock */,
 				A5A09FBF220426CC005F4364 /* Sources */,
 				A5A09FC0220426CC005F4364 /* Frameworks */,
 				A5A09FC1220426CC005F4364 /* Resources */,
@@ -183,9 +748,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5630FF02204DC4900ED4581 /* Cities.json in Resources */,
+				A5630FF12204DC4900ED4581 /* Icons.xcassets in Resources */,
+				A55E7F462204C6DC005C9090 /* Configuration.plist in Resources */,
+				A5F46F782209AA94005DDDB3 /* WTForecastItemTableViewCell.xib in Resources */,
 				A5A09FBB220426CB005F4364 /* LaunchScreen.storyboard in Resources */,
+				A55E7F062204A637005C9090 /* WTWeatherViewController.xib in Resources */,
 				A5A09FB8220426CB005F4364 /* Assets.xcassets in Resources */,
-				A5A09FB6220426C9005F4364 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,14 +767,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58E246242211C9FFADA1CA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjCWeather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9163B66905D1EEAAEE8B9BD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjCWeatherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5A09FA7220426C9005F4364 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A09FB3220426C9005F4364 /* ViewController.m in Sources */,
+				A55E7F212204A8FF005C9090 /* WTWeatherRouter.m in Sources */,
+				A55E7F442204C5ED005C9090 /* WTSettingsComponentAssembly.m in Sources */,
+				A5F46F6C22099DDA005DDDB3 /* WTApiForecast.m in Sources */,
+				A508021B2209E41600398E9A /* WTSettingsItem.m in Sources */,
+				A565CAEE2205F0CA0001BD53 /* WTUtils.m in Sources */,
+				A55E7F372204BA9C005C9090 /* WTWeatherComponent.m in Sources */,
+				A5A09FD622042EEE005F4364 /* WTApplicationAssembly.m in Sources */,
+				A55E7F0C2204A72C005C9090 /* WTWeatherPresenter.m in Sources */,
+				A55E7F2D2204B939005C9090 /* WTNetworkComponent.m in Sources */,
+				A55E7F412204C5A3005C9090 /* WTSettingsComponent.m in Sources */,
+				A557B9D9220A9D1D00ED68D5 /* WTWeather+Creation.m in Sources */,
+				A55E7F4A2204D46A005C9090 /* WTCity.m in Sources */,
+				A55E7F302204B98B005C9090 /* WTNetworkComponentAssembly.m in Sources */,
+				A55E7F3A2204BAD8005C9090 /* WTWeatherComponentAssembly.m in Sources */,
+				A5F46F742209AA17005DDDB3 /* WTForecastItemTableViewCell.m in Sources */,
 				A5A09FBE220426CB005F4364 /* main.m in Sources */,
-				A5A09FB0220426C9005F4364 /* AppDelegate.m in Sources */,
+				A55E7F252204A9C2005C9090 /* WTWeatherAssembly.m in Sources */,
+				A5630FF52204E9A100ED4581 /* WTApiWeather.m in Sources */,
+				A5A09FB0220426C9005F4364 /* WTAppDelegate.m in Sources */,
+				A55E7F4D2204D47C005C9090 /* WTWeather.m in Sources */,
+				A55E7F052204A637005C9090 /* WTWeatherViewController.m in Sources */,
+				A55E7F162204A827005C9090 /* WTWeatherInteractor.m in Sources */,
+				7F0E900C1D473308E0B31006 /* WTRootAssembly.m in Sources */,
+				17D6340A6365AD3492CCE55D /* WTRootViewController.m in Sources */,
+				E7026389D174FD00E0FFCEF1 /* WTRootPresenter.m in Sources */,
+				A5F46F702209A30E005DDDB3 /* WTWeatherItem.m in Sources */,
+				9082900C0A23CC8FC3896C84 /* WTRootInteractor.m in Sources */,
+				FBB3C4F1E24EC5B00C873B47 /* WTRootRouter.m in Sources */,
+				7A9C3F016502C950ED3A82E5 /* WTForecastAssembly.m in Sources */,
+				DCCFAD16326E822AE9AE5FCC /* WTForecastViewController.m in Sources */,
+				400E9D523458B54548C981B0 /* WTForecastPresenter.m in Sources */,
+				4DCA8A01427166879CB5B253 /* WTForecastInteractor.m in Sources */,
+				899AC83C9E47FD27DD832485 /* WTForecastRouter.m in Sources */,
+				BE1CB81D9DBCB456E8A64546 /* WTSettingsAssembly.m in Sources */,
+				57082F146029F27CA33643BB /* WTSettingsViewController.m in Sources */,
+				17C7E11FF2264B8D100F83E0 /* WTSettingsPresenter.m in Sources */,
+				6941058F9AE7D672BB68A4B7 /* WTSettingsInteractor.m in Sources */,
+				34300DBB0FDA83CB47565974 /* WTSettingsRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,14 +879,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A5A09FB4220426C9005F4364 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A09FB5220426C9005F4364 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5A09FB9220426CB005F4364 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -361,9 +1004,11 @@
 		};
 		A5A09FCD220426CC005F4364 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD17A84629A7FB82D47C9F4B /* Pods-ObjCWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ObjCWeather/PrefixHeader.pch";
 				INFOPLIST_FILE = ObjCWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -377,9 +1022,11 @@
 		};
 		A5A09FCE220426CC005F4364 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0834F34F7ED90D5C44C08C92 /* Pods-ObjCWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ObjCWeather/PrefixHeader.pch";
 				INFOPLIST_FILE = ObjCWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -393,6 +1040,7 @@
 		};
 		A5A09FD0220426CC005F4364 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C8A065E59B3FE5873D2CD6 /* Pods-ObjCWeatherTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -411,6 +1059,7 @@
 		};
 		A5A09FD1220426CC005F4364 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110F3E7B32CBAFB98CAEB6F7 /* Pods-ObjCWeatherTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

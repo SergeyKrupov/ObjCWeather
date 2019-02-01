@@ -1,0 +1,19 @@
+{% include 'header' %}
+
+#import <Foundation/Foundation.h>
+#import "{{ prefix }}{{ module_info.name }}PresenterProtocol.h"
+#import "{{ prefix }}{{ module_info.name }}ViewProtocol.h"
+#import "{{ prefix }}{{ module_info.name }}InteractorProtocol.h"
+#import "{{ prefix }}{{ module_info.name }}RouterProtocol.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface {{ prefix }}{{ module_info.name }}Presenter : NSObject<{{ prefix }}{{ module_info.name }}PresenterProtocol>
+
+@property (nonatomic, weak) id<{{ prefix }}{{ module_info.name }}ViewProtocol> view;
+@property (nonatomic, strong) id<{{ prefix }}{{ module_info.name }}InteractorProtocol> interactor;
+@property (nonatomic, strong) id<{{ prefix }}{{ module_info.name }}RouterProtocol> router;
+
+@end
+
+NS_ASSUME_NONNULL_END
